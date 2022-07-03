@@ -1,0 +1,47 @@
+.listing-item {
+  width: 19.8576vw;
+  margin: 0 1.6276vw 5.7306vh 1.6276vw;
+}
+
+.listing-img {
+  width: 100%;
+  height: 39.3982vh;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.listing-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listing-category {
+  line-height: 3.1518vh;
+  margin: 2.1489vh 0.651vw 0vh 0vw;
+  color: rgb(146, 145, 143);
+  cursor: pointer;
+}
+.listing-title {
+  font-size: 3.1518vh;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  margin-top: 1.4326vh;
+}
+
+.listing-time {
+  font-size: 1.5915vh;
+  color: rgb(146, 145, 143);
+  margin-top: 0.6631vh;
+}
+.listing-description {
+  color: rgb(80, 79, 77);
+  line-height: 2.9177vh;
+  margin-top: 0.6631vh;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp:5;
+  -webkit-box-orient: vertical;
+}

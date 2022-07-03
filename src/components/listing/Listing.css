@@ -1,0 +1,6 @@
+.listing-section{
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2.6525vh 1.3020vw;
+}

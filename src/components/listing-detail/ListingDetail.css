@@ -1,0 +1,54 @@
+.listing-detail{
+    flex: 9;
+}
+.listing-detail-content{
+    padding: 2.8653vh 0vw 2.8653vh 1.3020vw;
+}
+.listing-detail-img{
+    width: 100%;
+    height: 45.8452vh;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.listing-detail-title{
+    text-align: center;
+    font-size: 5.4441vh;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    margin: 1.4326vh 0vw;
+}
+.listing-detail-action{
+    float: right;
+    font-size: 4.2979vh;
+}
+.listing-detail-action-icon{
+    font-size:  3.4383vh;
+    margin-left: 0.78125vw;
+    cursor: pointer;
+}
+.listing-detail-action-icon:nth-child(1){
+    color: rgb(62, 185, 62);
+}
+.listing-detail-action-icon:nth-child(2){
+    color: rgb(243, 43, 8);
+}
+
+.listing-detail-meta-info{
+    display: flex;
+    justify-content: space-between;
+    font-size:  2.5787vh;
+    color: rgb(139, 128, 128);
+    margin-bottom: 3.1518vh;
+}
+
+.listing-detail-description{
+    line-height: 3.7249vh;
+    font-size: 2.2922vh;
+    color: rgb(56, 53, 53)
+}
+.listing-detail-description::first-letter{
+    margin-left: 0.9765vw;
+    font-size: 3.7249vh;
+    font-weight: 550;
+    color: var(--primary-color);
+}
